@@ -1,33 +1,38 @@
-# spotify-api-intro
-This Repo is the result of a tutorial that teaches how to use Spotify's API with react.
-It's a siple app that allos users to see what song they currently have playing on Spotify.
-There are two parts to it, the auth-server, and the client. 
+# Spotitrack
 
-## Getting Statrted
+This Repository is the result of the project of Information system architecture courses. The aim was to connect webservices to API's.
+Spotitrack is the name of site web application which consists on getting informations about the song the user is currently listening to. These informations are then stored and shown in an other tab.
 
-### 1) Create an App
-- Visit https://developer.spotify.com/ 
-- Log in and create an app
-- Enter http//localhost:8888/callback as the redirect uri
-- Save your changes
-- Copy down the following: Redirect uri, client id, client secret
+# HOW TO USE IT
 
+Pre-requisite : you need to install node  JS and react on your device and have 3 ports ready to be used.
 
-### 2)  Start Auth Server
+### 1)  Start Authorisation Server to connect to spotify's API
 - Navigate to the auth-server directory `cd auth-server`
 - Install the dependencies `npm install`
 - Paste in the redirect uri, client id, and client secret you copied in step 1
 - Run the Server `node authorization_code/app.js`
 
-### 3)  Start Client
+### 3)  Start Client interface
 - Navigate to the auth-server directory `cd client`
 - Install the dependencies `npm install`
 - Run the Server `npm start`
+- A React interface should be launched.
 
-### 4)  Use the App
-- Make sure you have a song playing (or paused) on a Spotify app
-- Visit http://localhost:3000
-- Click 'Log in with Spotify' and log in
-- Click the 'Check Now Playing' Button
-- Your currently playing song's name and album art should appear
+### 4)  Use the App to have infos
+- Make sure you are connected to spotifyApi
+- Run a song on spotify
+- Log to Spotitrack with the username and password you use on Spotify's app
+- Click on the button "Information sur le son en écoute"
+- Some informations should appear on the table at the top.
 
+
+### 4)  Check history
+- Go to the "historique" tab
+- Some informations should be displayed, if not do not hesitate to load the page again
+
+### 4)  Delete informations
+- Click on the trash icon.
+
+
+BY Les miserables
