@@ -31,7 +31,7 @@ Pre-requisite : you need to install node  JS and react on your device and have 3
 - Go to the "historique" tab
 - Some informations should be displayed, if not do not hesitate to load the page again
 
-### 4)  Delete informations
+### 5)  Delete informations
 - Click on the trash icon.
 
 
