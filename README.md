@@ -13,13 +13,13 @@ Pre-requisite : you need to install node  JS and react on your device and have 3
 - Paste in the redirect uri, client id, and client secret you copied in step 1
 - Run the Server `node authorization_code/app.js`
 
-### 3)  Start Client interface
+### 2)  Start Client interface
 - Navigate to the auth-server directory `cd client`
 - Install the dependencies `npm install`
 - Run the Server `npm start`
 - A React interface should be launched.
 
-### 4)  Use the App to have infos
+### 3)  Use the App to have infos
 - Make sure you are connected to spotifyApi
 - Run a song on spotify
 - Log to Spotitrack with the username and password you use on Spotify's app
